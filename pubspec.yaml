@@ -1,0 +1,32 @@
+name: enjoy
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  device_apps: ^1.2.0
+
+  cupertino_icons: ^1.0.0
+  flutter_spinkit: "^4.1.1"
+  flutter_file_dialog: ^1.0.0
+  path_provider: ^1.6.24
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.7.3"
+
+
+flutter:
+  uses-material-design: true
+
+flutter_icons:
+  image_path: "icon/icon.png"
+  android: true
+  
